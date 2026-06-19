@@ -1,0 +1,17 @@
+[package]
+name = "neoterminal"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rustyline = { version = "18.0.0", features = ["with-file-history"] }
+crossterm = "0.29.0"
+sysinfo = "0.31.4"
+dirs = "6.0.0"
+walkdir = "2.5"
+chrono = "0.4"
+syntect = "5.3.0"
+devicons = "0.6.12"
+ctrlc = "3.4"
+
+
